@@ -23,3 +23,7 @@
 - src: git@github.com:sergkondr-ansible/eve_images.git
   scm: git
   version: master
+
+- src: git@github.com:sergkondr-ansible/pnet_config.git
+  scm: git
+  version: master

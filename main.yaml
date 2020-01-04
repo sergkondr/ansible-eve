@@ -13,6 +13,7 @@
   - common
   - telegram_notify
   - r53_updater
+  - pnet_config
   tags: ["common"]
 
 - hosts: eve
