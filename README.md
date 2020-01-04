@@ -2,6 +2,8 @@
 
 Prepare host and add [Eve-NG](https://www.eve-ng.net/) images.
 
+How to create environment in Google Cloud Platform: [instruction](https://www.eve-ng.net/index.php/documentation/installation/google-cloud-install/)
+
 ### Example
 Prepare:
 
