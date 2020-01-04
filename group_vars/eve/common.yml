@@ -1,0 +1,12 @@
+---
+
+apt_packages:
+- name:
+  - jq
+  - vim
+  - htop
+  - python3
+  - python3-pip
+
+telegram_notification_message: "Eve is still working, $(uptime -p)"
+telegram_startup_message: "Eve is started up with $(nproc) CPUs and $(free -h | grep Mem | awk '{print $2}') Mem"

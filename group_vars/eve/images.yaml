@@ -1,0 +1,9 @@
+---
+
+eve_images_iol:
+- "iol/L2-ADVENTERPRISEK9-M-15.2-IRON-20151103.bin"
+- "iol/L3-ADVENTERPRISEK9-M-15.4-2T.bin"
+
+eve_images_qemu:
+- "mikrotik-6.46.1/hda.qcow2"
+- "vmx-14.1R1.10/hda.qcow2"

@@ -1,0 +1,6 @@
+roles/*
+!roles/requirements.yaml
+.vault_pass.txt
+inventory
+
+**/*secret*

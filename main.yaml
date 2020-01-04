@@ -1,0 +1,22 @@
+---
+
+- hosts: all
+  become: yes
+  gather_facts: no
+  roles:
+  - install-python
+  tags: ["python", "never"]
+
+- hosts: eve
+  become: yes
+  roles:
+  - common
+  - telegram_notify
+  - r53_updater
+  tags: ["common"]
+
+- hosts: eve
+  become: yes
+  roles:
+  - eve_images
+  tags: ["eve", "images"]

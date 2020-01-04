@@ -1,0 +1,25 @@
+---
+
+- src: git@github.com:sergkondr-ansible/install-python.git
+  scm: git
+  version: master
+
+- src: git@github.com:sergkondr-ansible/common.git
+  scm: git
+  version: master
+
+- src: git@github.com:sergkondr-ansible/apt.git
+  scm: git
+  version: master
+
+- src: git@github.com:sergkondr-ansible/telegram_notify.git
+  scm: git
+  version: master
+
+- src: git@github.com:sergkondr-ansible/r53_updater.git
+  scm: git
+  version: master
+
+- src: git@github.com:sergkondr-ansible/eve_images.git
+  scm: git
+  version: master
